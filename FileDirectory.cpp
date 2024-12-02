@@ -65,6 +65,7 @@ void deleteElement(Tree* check, string dElem){
         check->last = nullptr;
     } else {
         std::cout << "Folder does not exist\n";
+        return;
     }
     std::cout << "Folder deleted successfully\n";
 }
